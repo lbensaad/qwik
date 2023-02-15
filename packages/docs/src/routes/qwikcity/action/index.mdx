@@ -12,7 +12,7 @@ Actions are referenced using the `.use()` method from within a Qwik Component. T
 
 ```tsx
 // src/routes/layout.tsx
-import { action$ } from '@builder.io/qwik';
+import { action$ } from '@builder.io/qwik-city';
 export const useAddUser = action$((user) => {
   const userID = db.users.add(user);
   return {
